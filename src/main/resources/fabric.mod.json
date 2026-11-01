@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "anclaje",
+  "version": "${version}",
+  "name": "Anclaje",
+  "description": "La caña te jala hacia lo enganchado, y los murciélagos de huevo de aparición quedan estáticos como soporte.",
+  "authors": ["Tú"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.anclaje.AnclajeMod"] },
+  "mixins": ["anclaje.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.3-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
