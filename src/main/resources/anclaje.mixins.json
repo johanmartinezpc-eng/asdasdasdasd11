@@ -4,8 +4,8 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "FishingHookMixin",
-    "BatMixin",
-    "MobSpawnMixin"
+    "MobSpawnMixin",
+    "MobTickMixin"
   ],
   "injectors": { "defaultRequire": 1 }
 }
